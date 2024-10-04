@@ -1,0 +1,40 @@
+
+Para empezar a solucionar una proyecto se debe definnir inicialmete una ARQUITECTURA O PATRON DE DISEÑO algunas de allas son:
+--> solid: back complejo 
+--> hexagonal: back complejo
+--> MV( Modelo Vista Controlador) : web (front,back)FULLSTACK
+    * Modelo: capa de datos BASE DE DATOS 
+    * Vista : Html, imagenes, intefaz de usuario 
+    * Controlador : capa logica  que brinda el lenguaje de programacion 
+--> Capas : java 
+
+
+NOTAS:
+--> A la hora de subir el proyecto al repositorio y hay una carpeta VACIA esa carpeta no se subira al repositorio, 
+ya que las carpetas deben contener informacion 
+
+
+
+MODEL VIEW CONTROLLER (MODELO VISTA CONTROLADOR )
+    Siempre se debe empezar desde la vista
+    La informacion viaja hacia el CONTROLADOR y este aplica una logico en base a el Modelo
+    El modelo es el que contiene todas las credenciales, ejemplo loa USUARIOS 
+
+    MODEL
+    --> los archivos por convencion se deben nombrar con las formula 
+    model+ la entidad - ejemplo: modelTiempos 
+       
+
+
+
+     VIEW
+       no es necesario nombrar con la formula pero por convencion y orden es mejor 
+       ejemplo : view + entidad --> viewEmpleados 
+
+
+
+
+
+       CONTROLLER
+       --> los archivos por convencion se deben nombrar con las formula 
+            controller+ la entidad - ejemplo: controllerTiempos 
