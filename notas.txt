@@ -28,7 +28,7 @@ MODEL VIEW CONTROLLER (MODELO VISTA CONTROLADOR )
 
 
      VIEW
-       no es necesario nombrar con la formula pero por convencion y orden es mejor 
+    --> no es necesario nombrar con la formula pero por convencion y orden es mejor 
        ejemplo : view + entidad --> viewEmpleados 
 
 
@@ -38,3 +38,9 @@ MODEL VIEW CONTROLLER (MODELO VISTA CONTROLADOR )
        CONTROLLER
        --> los archivos por convencion se deben nombrar con las formula 
             controller+ la entidad - ejemplo: controllerTiempos 
+
+
+
+  DOM--> DOCUMENT OBJECT MODEL (MODELO DE OBJETOS DEL DOCUMENTO)        
+         Estructura de contenido jerarquica, que define todas la  etiquetas de Html. 
+         La etiqueta principal de Html es HTML.
