@@ -56,7 +56,8 @@ background-color: blue;
 .encabezado nav a::after {
     right: 0;
     top: 0;
-    background-color: brown;
+    background-color: brown
+    ;
 }
 .encabezado nav a:hover::after,
 .encabezado nav a:hover::before {

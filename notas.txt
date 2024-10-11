@@ -44,3 +44,38 @@ MODEL VIEW CONTROLLER (MODELO VISTA CONTROLADOR )
   DOM--> DOCUMENT OBJECT MODEL (MODELO DE OBJETOS DEL DOCUMENTO)        
          Estructura de contenido jerarquica, que define todas la  etiquetas de Html. 
          La etiqueta principal de Html es HTML.
+         
+   --> Convierte las etiquetas de Html en objetos, y  asi poderlo trabajar con JavaScript   
+
+ SELECTORES DE DOM 
+   Es la forma en la que le digo a JavaScript, que seleccione una etiquetade Html para poder manipularla   
+
+         --> getElement : 
+               ID, clase y etiqueta 
+               getElementById -- selecion por Id 
+               * cuando encuentra el primer elemento que coincida con el Id de la busqueda solo muestra ese, si hay mas elementos con el mismo Id
+               no sera tenndio en cuenta 
+               
+               getElementByClassName -- seleccion por Clase 
+               * Captura todas las etiquetas Html que tienen esa clase 
+               
+               getElementByTagName -- Sellecion por etiqueta 
+               * selecciona todas las etiquetas Html con las que desee trabajar y arroja una 'arreglo'
+
+
+          --> querySelector 
+               * querySelector -- va seleccionar la priemro que encuentra que coincida con la busqueda(nombre de etiqueta )
+                # + ID --> seleccion por ID (Selecciona solo el PRIMER elemento con ese ID)
+                .clase--> selecciona elementos que coincidan con una CLASE (Selecciona solo el PRIMER elemento que coincida con la CLASE)
+
+
+               * querySelectorAll -- va seleccionar todo  lo que encuentre que coincida con la busqueda (nombre de etiqueta)
+                  # + ID --> seleccion por ID (Selecciona TODOS los elemntos con ese ID)
+                  .CLASE --> seleccion por clase (Selecciona TODOS los elemntos con esa CLASE)
+
+
+
+
+
+Un objeto es una agrupacion de minimo un par de datos (llave : valor)
+
