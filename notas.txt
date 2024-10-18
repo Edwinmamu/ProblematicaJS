@@ -15,7 +15,7 @@ ya que las carpetas deben contener informacion
 
 
 
-MODEL VIEW CONTROLLER (MODELO VISTA CONTROLADOR )
+MODEL VIEW CONTROLLER (MODELO VISTA CONTROLADOR ) BASE DE DATOS 
     Siempre se debe empezar desde la vista
     La informacion viaja hacia el CONTROLADOR y este aplica una logico en base a el Modelo
     El modelo es el que contiene todas las credenciales, ejemplo loa USUARIOS 
@@ -27,7 +27,7 @@ MODEL VIEW CONTROLLER (MODELO VISTA CONTROLADOR )
 
 
 
-     VIEW
+     VIEW ( HTML)
     --> no es necesario nombrar con la formula pero por convencion y orden es mejor 
        ejemplo : view + entidad --> viewEmpleados 
 
@@ -35,7 +35,7 @@ MODEL VIEW CONTROLLER (MODELO VISTA CONTROLADOR )
 
 
 
-       CONTROLLER
+       CONTROLLER (LOGICA)
        --> los archivos por convencion se deben nombrar con las formula 
             controller+ la entidad - ejemplo: controllerTiempos 
 
@@ -73,9 +73,21 @@ MODEL VIEW CONTROLLER (MODELO VISTA CONTROLADOR )
                   # + ID --> seleccion por ID (Selecciona TODOS los elemntos con ese ID)
                   .CLASE --> seleccion por clase (Selecciona TODOS los elemntos con esa CLASE)
 
+Un OBJETO es una agrupacion de minimo un par de datos (llave : valor) 
+
+TIPOS DE OBJETOS 
+      --> OBJETOS LITERALES:
+                            La construccion literal de un objeto 
+                            (Se le pasa el atributo y el Valor) 
+      --> OBJETOS POR CONSTRUCTOR:
+                                 Orientacion a objetos 
+
+iport - export (Modulos)
+  - Los eventos directos en HTML no funcionan
 
 
 
 
-Un objeto es una agrupacion de minimo un par de datos (llave : valor)
+
+
 

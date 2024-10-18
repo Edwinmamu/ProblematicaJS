@@ -1,5 +1,2 @@
-// console.log (document.getElementById('fecha'))
-// console.log(document.getElementsByClassName('clase'))
-
-let input =  document.getElementById('fecha')
-console.log(input)
+import { registrarTiempo } from "../controllers/controllerTiempos.js";
+document.getElementById("btnRegistrar").addEventListener("click", registrarTiempo)//agregar un evento al elemento 
