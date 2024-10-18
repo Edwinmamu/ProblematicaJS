@@ -84,6 +84,12 @@ TIPOS DE OBJETOS
 
 iport - export (Modulos)
   - Los eventos directos en HTML no funcionan
+  
+
+
+  METODOS DE LOS ARREGLOS
+              PUSH: Agrega un elemento a la ultima posicion del arreglo 
+              
 
 
 
