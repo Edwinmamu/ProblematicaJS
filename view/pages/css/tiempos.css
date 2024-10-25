@@ -145,13 +145,15 @@ button[type="button"]:active {
     background-color: #0d2d72;
 
 }
+
 table {
     width: 50%;
     height: 50vh;
     outline: 1px solid black;
-    
-}
-tr, td {
-    outline: 1px solid black;
+
 }
 
+tr,
+td {
+    outline: 1px solid black;
+}
