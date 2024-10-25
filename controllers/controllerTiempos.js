@@ -13,10 +13,10 @@ export function registrarTiempo() {
     }
     Tiempo.push(newRegistro)
     console.log(Tiempo)
-    crearRegistroTiempo()
+    crearRegistroTiempo(newRegistro)
 
 }
-function crearRegistroTiempo() {
+function crearRegistroTiempo(newRegistro) {
     let registro = document.createElement('tr')
     let fecha = document.createElement('td')
     let tiempo = document.createElement('td')
@@ -24,8 +24,15 @@ function crearRegistroTiempo() {
     let acciones = document.createElement('td')
     let editar = document.createElement('button')
     let eliminar = document.createElement('button')
+    fecha.textContent = newRegistro.fecha
+    tiempo.textContent = newRegistro.tiempo
+    proyecto.textContent = newRegistro.proyecto
+    editar.textContent = 'Editar'
+    eliminar.textContent = 'Eliminar'
+    acciones.classList.add('botones')
 
     acciones.append(editar, eliminar)
     registro.append(fecha, tiempo, proyecto, acciones)
     console.log(registro)
+    document.getElementById('registros').append(registro)
 }
